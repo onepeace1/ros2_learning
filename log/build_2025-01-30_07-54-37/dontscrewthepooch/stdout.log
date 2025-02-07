@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/dontscrewthepooch/dontscrewthepooch.egg-info/PKG-INFO
+writing dependency_links to ../../build/dontscrewthepooch/dontscrewthepooch.egg-info/dependency_links.txt
+writing entry points to ../../build/dontscrewthepooch/dontscrewthepooch.egg-info/entry_points.txt
+writing requirements to ../../build/dontscrewthepooch/dontscrewthepooch.egg-info/requires.txt
+writing top-level names to ../../build/dontscrewthepooch/dontscrewthepooch.egg-info/top_level.txt
+reading manifest file '../../build/dontscrewthepooch/dontscrewthepooch.egg-info/SOURCES.txt'
+writing manifest file '../../build/dontscrewthepooch/dontscrewthepooch.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages/dontscrewthepooch-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dontscrewthepooch/dontscrewthepooch.egg-info to /home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages/dontscrewthepooch-0.0.0-py3.10.egg-info
+running install_scripts
+Installing command_give script to /home/acai0804/ys25_ws/install/dontscrewthepooch/lib/dontscrewthepooch
+Installing goal_pose_to_traj_setpoint script to /home/acai0804/ys25_ws/install/dontscrewthepooch/lib/dontscrewthepooch
+Installing tf2_map_to_odom script to /home/acai0804/ys25_ws/install/dontscrewthepooch/lib/dontscrewthepooch
+writing list of installed files to '/home/acai0804/ys25_ws/build/dontscrewthepooch/install.log'

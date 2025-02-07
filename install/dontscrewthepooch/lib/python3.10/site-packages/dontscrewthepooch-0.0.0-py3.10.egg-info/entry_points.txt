@@ -1,0 +1,4 @@
+[console_scripts]
+command_give = dontscrewthepooch.command_give:main
+goal_pose_to_traj_setpoint = dontscrewthepooch.goal_pose_to_traj_setpoint:main
+tf2_map_to_odom = dontscrewthepooch.tf2_map_to_odom:main

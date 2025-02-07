@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/mission_control/mission_control.egg-info
+writing ../../build/mission_control/mission_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/mission_control/mission_control.egg-info/dependency_links.txt
+writing entry points to ../../build/mission_control/mission_control.egg-info/entry_points.txt
+writing requirements to ../../build/mission_control/mission_control.egg-info/requires.txt
+writing top-level names to ../../build/mission_control/mission_control.egg-info/top_level.txt
+writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/acai0804/ys25_ws/build/mission_control/build
+creating /home/acai0804/ys25_ws/build/mission_control/build/lib
+creating /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control
+copying mission_control/mission1.py -> /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control
+copying mission_control/__init__.py -> /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control
+copying mission_control/offboard_start.py -> /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control
+copying mission_control/visualizer.py -> /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control
+running install
+running install_lib
+creating /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+copying /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control/mission1.py -> /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+copying /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control/__init__.py -> /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+copying /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control/offboard_start.py -> /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+copying /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control/visualizer.py -> /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+byte-compiling /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control/mission1.py to mission1.cpython-310.pyc
+byte-compiling /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control/offboard_start.py to offboard_start.cpython-310.pyc
+byte-compiling /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control/visualizer.py to visualizer.cpython-310.pyc
+running install_data
+creating /home/acai0804/ys25_ws/install/mission_control/share/ament_index
+creating /home/acai0804/ys25_ws/install/mission_control/share/ament_index/resource_index
+creating /home/acai0804/ys25_ws/install/mission_control/share/ament_index/resource_index/packages
+copying resource/mission_control -> /home/acai0804/ys25_ws/install/mission_control/share/ament_index/resource_index/packages
+copying resource/visualize.rviz -> /home/acai0804/ys25_ws/install/mission_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/acai0804/ys25_ws/install/mission_control/share/mission_control
+copying launch/missions.launch.py -> /home/acai0804/ys25_ws/install/mission_control/share/mission_control
+copying resource/visualize.rviz -> /home/acai0804/ys25_ws/install/mission_control/share/mission_control
+copying resource/test_clothoid_result.csv -> /home/acai0804/ys25_ws/install/mission_control/share/mission_control
+running install_egg_info
+Copying ../../build/mission_control/mission_control.egg-info to /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mission1 script to /home/acai0804/ys25_ws/install/mission_control/lib/mission_control
+Installing offboard_start script to /home/acai0804/ys25_ws/install/mission_control/lib/mission_control
+Installing visualizer script to /home/acai0804/ys25_ws/install/mission_control/lib/mission_control
+writing list of installed files to '/home/acai0804/ys25_ws/build/mission_control/install.log'

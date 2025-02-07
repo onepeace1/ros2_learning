@@ -1,0 +1,6 @@
+source;share/dontscrewthepooch/hook/pythonpath.ps1
+source;share/dontscrewthepooch/hook/pythonpath.dsv
+source;share/dontscrewthepooch/hook/pythonpath.sh
+source;share/dontscrewthepooch/hook/ament_prefix_path.ps1
+source;share/dontscrewthepooch/hook/ament_prefix_path.dsv
+source;share/dontscrewthepooch/hook/ament_prefix_path.sh

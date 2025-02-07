@@ -1,0 +1,4 @@
+[console_scripts]
+mission1 = mission_control.mission1:main
+offboard_start = mission_control.offboard_start:main
+visualizer = mission_control.visualizer:main
