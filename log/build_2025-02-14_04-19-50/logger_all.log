@@ -1,0 +1,247 @@
+[0.859s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.860s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76c430d4a200>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76c430eca830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76c430eca830>>, mixin_verb=('build',))
+[1.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.166s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/acai0804/ys25_ws'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extensions ['ignore', 'ignore_ament_install']
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extension 'ignore'
+[1.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extension 'ignore_ament_install'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extensions ['colcon_pkg']
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extension 'colcon_pkg'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extensions ['colcon_meta']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extension 'colcon_meta'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extensions ['ros']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/dontscrewthepooch) by extension 'ros'
+[1.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dontscrewthepooch' with type 'ros.ament_python' and name 'dontscrewthepooch'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extensions ['ignore', 'ignore_ament_install']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'ignore'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'ignore_ament_install'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extensions ['colcon_pkg']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'colcon_pkg'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extensions ['colcon_meta']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'colcon_meta'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extensions ['ros']
+[1.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/mission_control) by extension 'ros'
+[1.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mission_control' with type 'ros.ament_python' and name 'mission_control'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[1.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[1.640s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[1.640s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.641s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.641s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.641s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.641s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.642s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/acai0804/ys25_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/acai0804/ys25_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/acai0804/ys25_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'cmake_args' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'cmake_target' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'cmake_clean_first' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'cmake_force_configure' from command line to 'False'
+[1.649s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'ament_cmake_args' from command line to 'None'
+[1.649s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.649s] Level 5:colcon.colcon_core.verb:set package 'dontscrewthepooch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.650s] DEBUG:colcon.colcon_core.verb:Building package 'dontscrewthepooch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/acai0804/ys25_ws/build/dontscrewthepooch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/acai0804/ys25_ws/install/dontscrewthepooch', 'merge_install': False, 'path': '/home/acai0804/ys25_ws/src/dontscrewthepooch', 'symlink_install': False, 'test_result_base': None}
+[1.654s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'cmake_args' from command line to 'None'
+[1.654s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'cmake_target' from command line to 'None'
+[1.655s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.655s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.655s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.655s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'mission_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.657s] DEBUG:colcon.colcon_core.verb:Building package 'mission_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/acai0804/ys25_ws/build/mission_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/acai0804/ys25_ws/install/mission_control', 'merge_install': False, 'path': '/home/acai0804/ys25_ws/src/mission_control', 'symlink_install': False, 'test_result_base': None}
+[1.658s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.665s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.666s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/acai0804/ys25_ws/src/px4_msgs' with build type 'ament_cmake'
+[1.667s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/acai0804/ys25_ws/src/px4_msgs'
+[1.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acai0804/ys25_ws/build/px4_msgs': /usr/bin/cmake --build /home/acai0804/ys25_ws/build/px4_msgs -- -j8 -l8
+[12.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acai0804/ys25_ws/build/px4_msgs' returned '0': /usr/bin/cmake --build /home/acai0804/ys25_ws/build/px4_msgs -- -j8 -l8
+[12.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acai0804/ys25_ws/build/px4_msgs': /usr/bin/cmake --install /home/acai0804/ys25_ws/build/px4_msgs
+[14.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[14.430s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs' for CMake module files
+[14.462s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs' for CMake config files
+[14.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[14.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[14.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[14.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[14.569s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/lib'
+[14.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[14.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[14.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[14.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[14.629s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/bin'
+[14.630s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[14.658s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/lib/python3.10/site-packages'
+[14.662s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/bin'
+[14.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[14.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[14.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[14.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[14.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[14.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acai0804/ys25_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[14.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[14.824s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs' for CMake module files
+[14.863s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs' for CMake config files
+[14.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[14.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[14.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[14.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[14.952s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/lib'
+[14.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[14.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[14.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[14.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[15.009s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/bin'
+[15.010s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[15.013s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/lib/python3.10/site-packages'
+[15.017s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/px4_msgs/bin'
+[15.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[15.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[15.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[15.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[15.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[15.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acai0804/ys25_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[15.120s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/acai0804/ys25_ws/src/dontscrewthepooch' with build type 'ament_python'
+[15.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('dontscrewthepooch', 'ament_prefix_path')
+[15.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/hook/ament_prefix_path.ps1'
+[15.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/hook/ament_prefix_path.dsv'
+[15.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/hook/ament_prefix_path.sh'
+[15.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acai0804/ys25_ws/build/px4_msgs' returned '0': /usr/bin/cmake --install /home/acai0804/ys25_ws/build/px4_msgs
+[17.200s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/acai0804/ys25_ws/src/dontscrewthepooch'
+[17.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acai0804/ys25_ws/src/dontscrewthepooch': AMENT_PREFIX_PATH=/home/acai0804/ys25_ws/install/px4_msgs CMAKE_PREFIX_PATH=/home/acai0804/ys25_ws/install/px4_msgs LD_LIBRARY_PATH=/home/acai0804/ys25_ws/install/px4_msgs/lib PYTHONPATH=/home/acai0804/ys25_ws/build/dontscrewthepooch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/px4_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dontscrewthepooch build --build-base /home/acai0804/ys25_ws/build/dontscrewthepooch/build install --record /home/acai0804/ys25_ws/build/dontscrewthepooch/install.log --single-version-externally-managed install_data
+[24.397s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/dontscrewthepooch' for CMake module files
+[24.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acai0804/ys25_ws/src/dontscrewthepooch' returned '0': AMENT_PREFIX_PATH=/home/acai0804/ys25_ws/install/px4_msgs CMAKE_PREFIX_PATH=/home/acai0804/ys25_ws/install/px4_msgs LD_LIBRARY_PATH=/home/acai0804/ys25_ws/install/px4_msgs/lib PYTHONPATH=/home/acai0804/ys25_ws/build/dontscrewthepooch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/px4_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dontscrewthepooch build --build-base /home/acai0804/ys25_ws/build/dontscrewthepooch/build install --record /home/acai0804/ys25_ws/build/dontscrewthepooch/install.log --single-version-externally-managed install_data
+[24.403s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/dontscrewthepooch' for CMake config files
+[24.407s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/dontscrewthepooch/lib'
+[24.408s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/dontscrewthepooch/bin'
+[24.408s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/pkgconfig/dontscrewthepooch.pc'
+[24.410s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages'
+[24.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('dontscrewthepooch', 'pythonpath')
+[24.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/hook/pythonpath.ps1'
+[24.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/hook/pythonpath.dsv'
+[24.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/hook/pythonpath.sh'
+[24.421s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/dontscrewthepooch/bin'
+[24.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dontscrewthepooch)
+[24.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/package.ps1'
+[24.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/package.dsv'
+[24.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/package.sh'
+[24.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/package.bash'
+[24.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/dontscrewthepooch/share/dontscrewthepooch/package.zsh'
+[24.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acai0804/ys25_ws/install/dontscrewthepooch/share/colcon-core/packages/dontscrewthepooch)
+[24.442s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/acai0804/ys25_ws/src/mission_control' with build type 'ament_python'
+[24.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_control', 'ament_prefix_path')
+[24.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/hook/ament_prefix_path.ps1'
+[24.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/hook/ament_prefix_path.dsv'
+[24.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/hook/ament_prefix_path.sh'
+[24.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.059s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/acai0804/ys25_ws/src/mission_control'
+[26.061s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.061s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/acai0804/ys25_ws/src/mission_control': AMENT_PREFIX_PATH=/home/acai0804/ys25_ws/install/dontscrewthepooch:/home/acai0804/ys25_ws/install/px4_msgs CMAKE_PREFIX_PATH=/home/acai0804/ys25_ws/install/px4_msgs LD_LIBRARY_PATH=/home/acai0804/ys25_ws/install/px4_msgs/lib PYTHONPATH=/home/acai0804/ys25_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/px4_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/acai0804/ys25_ws/build/mission_control/build install --record /home/acai0804/ys25_ws/build/mission_control/install.log --single-version-externally-managed install_data
+[34.108s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/mission_control' for CMake module files
+[34.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/acai0804/ys25_ws/src/mission_control' returned '0': AMENT_PREFIX_PATH=/home/acai0804/ys25_ws/install/dontscrewthepooch:/home/acai0804/ys25_ws/install/px4_msgs CMAKE_PREFIX_PATH=/home/acai0804/ys25_ws/install/px4_msgs LD_LIBRARY_PATH=/home/acai0804/ys25_ws/install/px4_msgs/lib PYTHONPATH=/home/acai0804/ys25_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/px4_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/acai0804/ys25_ws/build/mission_control/build install --record /home/acai0804/ys25_ws/build/mission_control/install.log --single-version-externally-managed install_data
+[34.115s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/mission_control' for CMake config files
+[34.119s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/mission_control/lib'
+[34.120s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/mission_control/bin'
+[34.121s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/mission_control/lib/pkgconfig/mission_control.pc'
+[34.122s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages'
+[34.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_control', 'pythonpath')
+[34.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/hook/pythonpath.ps1'
+[34.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/hook/pythonpath.dsv'
+[34.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/hook/pythonpath.sh'
+[34.135s] Level 1:colcon.colcon_core.environment:checking '/home/acai0804/ys25_ws/install/mission_control/bin'
+[34.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mission_control)
+[34.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/package.ps1'
+[34.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/package.dsv'
+[34.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/package.sh'
+[34.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/package.bash'
+[34.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/acai0804/ys25_ws/install/mission_control/share/mission_control/package.zsh'
+[34.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/acai0804/ys25_ws/install/mission_control/share/colcon-core/packages/mission_control)
+[34.157s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[34.161s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.197s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.197s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.248s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.251s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/acai0804/ys25_ws/install/local_setup.ps1'
+[34.260s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/acai0804/ys25_ws/install/_local_setup_util_ps1.py'
+[34.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/acai0804/ys25_ws/install/setup.ps1'
+[34.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/acai0804/ys25_ws/install/local_setup.sh'
+[34.287s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/acai0804/ys25_ws/install/_local_setup_util_sh.py'
+[34.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/acai0804/ys25_ws/install/setup.sh'
+[34.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/acai0804/ys25_ws/install/local_setup.bash'
+[34.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/acai0804/ys25_ws/install/setup.bash'
+[34.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/acai0804/ys25_ws/install/local_setup.zsh'
+[34.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/acai0804/ys25_ws/install/setup.zsh'

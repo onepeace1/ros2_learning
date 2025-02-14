@@ -1,0 +1,4 @@
+Invoking command in '/home/acai0804/ys25_ws/build/px4_msgs': /usr/bin/cmake --build /home/acai0804/ys25_ws/build/px4_msgs -- -j8 -l8
+Invoked command in '/home/acai0804/ys25_ws/build/px4_msgs' returned '0': /usr/bin/cmake --build /home/acai0804/ys25_ws/build/px4_msgs -- -j8 -l8
+Invoking command in '/home/acai0804/ys25_ws/build/px4_msgs': /usr/bin/cmake --install /home/acai0804/ys25_ws/build/px4_msgs
+Invoked command in '/home/acai0804/ys25_ws/build/px4_msgs' returned '0': /usr/bin/cmake --install /home/acai0804/ys25_ws/build/px4_msgs

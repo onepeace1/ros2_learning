@@ -1,0 +1,28 @@
+[5.568s] Invoking command in '/home/acai0804/ys25_ws/src/mission_control': AMENT_PREFIX_PATH=/home/acai0804/ys25_ws/install/dontscrewthepooch:/home/acai0804/ys25_ws/install/px4_msgs CMAKE_PREFIX_PATH=/home/acai0804/ys25_ws/install/px4_msgs LD_LIBRARY_PATH=/home/acai0804/ys25_ws/install/px4_msgs/lib PYTHONPATH=/home/acai0804/ys25_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/px4_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/acai0804/ys25_ws/build/mission_control/build install --record /home/acai0804/ys25_ws/build/mission_control/install.log --single-version-externally-managed install_data
+[7.416s] running egg_info
+[7.533s] writing ../../build/mission_control/mission_control.egg-info/PKG-INFO
+[7.535s] writing dependency_links to ../../build/mission_control/mission_control.egg-info/dependency_links.txt
+[7.538s] writing entry points to ../../build/mission_control/mission_control.egg-info/entry_points.txt
+[7.540s] writing requirements to ../../build/mission_control/mission_control.egg-info/requires.txt
+[7.541s] writing top-level names to ../../build/mission_control/mission_control.egg-info/top_level.txt
+[7.833s] reading manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[7.836s] adding license file 'LICENSE'
+[7.844s] writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[7.845s] running build
+[7.846s] running build_py
+[7.848s] copying mission_control/offboard_start.py -> /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control
+[7.854s] running install
+[7.923s] running install_lib
+[8.044s] copying /home/acai0804/ys25_ws/build/mission_control/build/lib/mission_control/offboard_start.py -> /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control
+[8.050s] byte-compiling /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control/offboard_start.py to offboard_start.cpython-310.pyc
+[8.073s] running install_data
+[8.077s] running install_egg_info
+[8.227s] removing '/home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control-0.0.0-py3.10.egg-info' (and everything under it)
+[8.230s] Copying ../../build/mission_control/mission_control.egg-info to /home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages/mission_control-0.0.0-py3.10.egg-info
+[8.238s] running install_scripts
+[9.481s] Installing InitialCommands script to /home/acai0804/ys25_ws/install/mission_control/lib/mission_control
+[9.482s] Installing mission1 script to /home/acai0804/ys25_ws/install/mission_control/lib/mission_control
+[9.484s] Installing offboard_start script to /home/acai0804/ys25_ws/install/mission_control/lib/mission_control
+[9.485s] Installing visualizer script to /home/acai0804/ys25_ws/install/mission_control/lib/mission_control
+[9.488s] writing list of installed files to '/home/acai0804/ys25_ws/build/mission_control/install.log'
+[9.660s] Invoked command in '/home/acai0804/ys25_ws/src/mission_control' returned '0': AMENT_PREFIX_PATH=/home/acai0804/ys25_ws/install/dontscrewthepooch:/home/acai0804/ys25_ws/install/px4_msgs CMAKE_PREFIX_PATH=/home/acai0804/ys25_ws/install/px4_msgs LD_LIBRARY_PATH=/home/acai0804/ys25_ws/install/px4_msgs/lib PYTHONPATH=/home/acai0804/ys25_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/acai0804/ys25_ws/install/mission_control/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/dontscrewthepooch/lib/python3.10/site-packages:/home/acai0804/ys25_ws/install/px4_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/acai0804/ys25_ws/build/mission_control/build install --record /home/acai0804/ys25_ws/build/mission_control/install.log --single-version-externally-managed install_data
